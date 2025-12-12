@@ -18,8 +18,9 @@ export const LP: React.FC = () => {
   const benefits = [
     "Novas ofertas todos os dias",
     "Cloaker quebrado",
-    "Todas as etapas dos funis",
-    "Vários idiomas e nichos"
+    "Vários nichos e idiomas",
+    "Ofertas secretas dos grandes players",
+    "Copie, cole e escale"
   ];
 
   return (
@@ -61,8 +62,8 @@ export const LP: React.FC = () => {
           ))}
         </div>
 
-        {/* CTA Button - Updated to WhatsApp Green */}
-        <button className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg py-4 rounded-full shadow-[0_0_30px_-5px_rgba(37,211,102,0.4)] hover:shadow-[0_0_40px_-5px_rgba(37,211,102,0.6)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wide">
+        {/* CTA Button - Brand Green */}
+        <button className="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold text-lg py-4 rounded-full shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.6)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wide">
           <WhatsAppIcon className="w-6 h-6" />
           ENTRAR NO GRUPO VIP
         </button>
