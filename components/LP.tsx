@@ -69,11 +69,6 @@ export const LP: React.FC = () => {
           ENTRAR NO GRUPO VIP
         </button>
 
-        {/* Footer Text */}
-        <p className="mt-8 text-slate-500 text-sm font-medium">
-          Acesso imediato após a confirmação.
-        </p>
-
       </div>
     </div>
   );
