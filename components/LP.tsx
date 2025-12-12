@@ -17,8 +17,9 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 export const LP: React.FC = () => {
   const benefits = [
     "Novas ofertas todos os dias",
-    "Cloaker quebrado",
     "Vários nichos e idiomas",
+    "Nutra e infoprodutos",
+    "Cloaker quebrado",
     "Ofertas secretas dos grandes players",
     "Copie, cole e escale"
   ];
