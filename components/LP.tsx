@@ -64,10 +64,15 @@ export const LP: React.FC = () => {
         </div>
 
         {/* CTA Button - Brand Green */}
-        <button className="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold text-base md:text-lg py-3 md:py-4 rounded-full shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.6)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wide">
+        <a 
+          href="https://chat.whatsapp.com/EPMW61aZDAw6qZdCECSaDu?mode=hqrt2"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold text-base md:text-lg py-3 md:py-4 rounded-full shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.6)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wide"
+        >
           <WhatsAppIcon className="w-5 h-5 md:w-6 md:h-6" />
           ENTRAR NO GRUPO VIP
-        </button>
+        </a>
 
       </div>
     </div>
