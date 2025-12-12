@@ -88,28 +88,6 @@ function App() {
 
       </div>
 
-      {/* DEV NAVIGATION CONTROLS - Botões flutuantes para teste */}
-      <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2 bg-slate-900/90 p-2 rounded-lg border border-slate-700 backdrop-blur shadow-xl">
-        <span className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Dev Menu</span>
-        <button 
-          onClick={() => setCurrentView('landing')}
-          className={`text-xs px-3 py-1.5 rounded transition-colors font-medium ${currentView === 'landing' ? 'bg-brand-500 text-slate-900' : 'bg-slate-800 text-white hover:bg-slate-700'}`}
-        >
-          Home
-        </button>
-        <button 
-          onClick={() => setCurrentView('lp')}
-          className={`text-xs px-3 py-1.5 rounded transition-colors font-medium ${currentView === 'lp' ? 'bg-brand-500 text-slate-900' : 'bg-slate-800 text-white hover:bg-slate-700'}`}
-        >
-          Ver /lp
-        </button>
-        <button 
-          onClick={() => setCurrentView('login')}
-          className={`text-xs px-3 py-1.5 rounded transition-colors font-medium ${currentView === 'login' ? 'bg-brand-500 text-slate-900' : 'bg-slate-800 text-white hover:bg-slate-700'}`}
-        >
-          Login
-        </button>
-      </div>
 
     </div>
   );
