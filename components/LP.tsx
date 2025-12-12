@@ -25,47 +25,47 @@ export const LP: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4 relative z-20">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-6 md:p-4 relative z-20">
       
       {/* Central Container */}
       <div className="w-full max-w-lg mx-auto flex flex-col items-center">
         
         {/* Logo */}
-        <div className="flex items-center gap-2 mb-12">
-          <div className="w-12 h-12 rounded-xl bg-brand-500 flex items-center justify-center shadow-[0_0_20px_-5px_rgba(16,185,129,0.5)]">
-            <Rocket className="w-7 h-7 text-white" strokeWidth={2.5} />
+        <div className="flex items-center gap-2 mb-4 md:mb-12">
+          <div className="w-9 h-9 md:w-12 md:h-12 rounded-xl bg-brand-500 flex items-center justify-center shadow-[0_0_20px_-5px_rgba(16,185,129,0.5)]">
+            <Rocket className="w-5 h-5 md:w-7 md:h-7 text-white" strokeWidth={2.5} />
           </div>
-          <span className="text-3xl font-bold text-white tracking-tight">
+          <span className="text-2xl md:text-3xl font-bold text-white tracking-tight">
             Scale<span className="text-brand-400">Cash</span>
           </span>
         </div>
 
         {/* Headline */}
-        <div className="text-center mb-10">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-white leading-tight mb-2 tracking-wide">
+        <div className="text-center mb-4 md:mb-10">
+          <h1 className="text-xl md:text-4xl font-extrabold text-white leading-tight mb-1 md:mb-2 tracking-wide">
             Copie as Ofertas que Estão <br />
             <span className="gradient-text">Imprimindo Dinheiro</span> Agora
           </h1>
         </div>
 
         {/* Benefits List */}
-        <div className="w-full space-y-4 mb-12">
+        <div className="w-full space-y-2 md:space-y-4 mb-4 md:mb-12">
           {benefits.map((item, index) => (
             <div 
               key={index}
-              className="flex items-center gap-4 bg-slate-900/60 border border-slate-700/50 p-4 rounded-xl backdrop-blur-sm hover:border-brand-500/30 transition-colors group"
+              className="flex items-center gap-3 md:gap-4 bg-slate-900/60 border border-slate-700/50 px-3 py-2.5 md:p-4 rounded-xl backdrop-blur-sm hover:border-brand-500/30 transition-colors group"
             >
-              <div className="w-8 h-8 rounded-full bg-brand-500 flex items-center justify-center shrink-0 shadow-lg shadow-brand-500/20 group-hover:scale-110 transition-transform">
-                <Check className="w-5 h-5 text-white" strokeWidth={3} />
+              <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-brand-500 flex items-center justify-center shrink-0 shadow-lg shadow-brand-500/20 group-hover:scale-110 transition-transform">
+                <Check className="w-4 h-4 md:w-5 md:h-5 text-white" strokeWidth={3} />
               </div>
-              <span className="text-lg font-medium text-slate-200">{item}</span>
+              <span className="text-sm md:text-lg font-medium text-slate-200">{item}</span>
             </div>
           ))}
         </div>
 
         {/* CTA Button - Brand Green */}
-        <button className="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold text-lg py-4 rounded-full shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.6)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wide">
-          <WhatsAppIcon className="w-6 h-6" />
+        <button className="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold text-base md:text-lg py-3 md:py-4 rounded-full shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.6)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 uppercase tracking-wide">
+          <WhatsAppIcon className="w-5 h-5 md:w-6 md:h-6" />
           ENTRAR NO GRUPO VIP
         </button>
 
